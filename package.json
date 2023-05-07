@@ -1,14 +1,13 @@
 {
   "private": true,
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "apps/**",
+    "packages/**"
   ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "dev:web": "turbo run dev --filter=api --filter=web",
-    "pulumi:up": "./apps/pulumi/ pulumi up",
     "generate": "turbo run generate"
   },
   "devDependencies": {
