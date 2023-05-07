@@ -1,0 +1,1 @@
+<img src="/soc-gen-high-resolution-color-logo.png" alt="Logo" />
