@@ -11,7 +11,7 @@
       ]
     },
     "web#build": {
-      "dependsOn": ["^api#build"],
+      "dependsOn": ["^wundergraph-api#build"],
       "outputs": [".svelte-kit/**"]
     },
     "lint": {
