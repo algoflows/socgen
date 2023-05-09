@@ -7,8 +7,7 @@
         ".svelte-kit/**",
         ".vercel/**",
         "generated-wundergraph/**",
-        "generated/**",
-        "shared/**"
+        "generated/**"
       ]
     },
     "web#build": {
