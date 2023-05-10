@@ -1,5 +1,5 @@
 <script>
-  import { Navbar } from "shared/ui";
+  import { Navbar } from "@packages/shared/ui";
   import "../app.css";
 
   const logoUrl =
