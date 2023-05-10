@@ -18,10 +18,10 @@ const config = {
       //    $docs: resolve("../../apps/docs/src"),
 
       // Web
-      $web: resolve("../../apps/clients/web/src"),
+      $web: resolve("../../../apps/clients/web/src"),
 
       // mobile
-      $mobile: resolve("../../apps/clients/mobile/src"),
+      $mobile: resolve("../../../apps/clients/mobile/src"),
     },
   },
 
