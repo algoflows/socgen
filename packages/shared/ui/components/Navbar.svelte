@@ -12,7 +12,7 @@
   <div class="flex-3">
     <ul class="flex min-h-full">
       {#each links as link}
-        <li class="custom-padding">
+        <li class="border px-2">
           <a
             href={link.href}
             class="nav-link text-xs text-gray-800 hover:text-gray-700"
@@ -23,10 +23,3 @@
     </ul>
   </div>
 </header>
-
-<style>
-  .custom-padding {
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
-  }
-</style>
